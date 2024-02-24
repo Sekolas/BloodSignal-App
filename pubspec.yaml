@@ -1,0 +1,407 @@
+name: myapp
+description: A exported flutter project from FUNCTION12
+
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  google_fonts: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/page-1/images/icon.png
+    - assets/page-1/images/icon-mobile-signal.png
+    - assets/page-1/images/vuesax-linear-arrow-right.png
+    - assets/page-1/images/vuesax-bold-gallery.png
+    - assets/page-1/images/cellular-connection.png
+    - assets/page-1/images/wifi.png
+    - assets/page-1/images/vuesax-linear-arrow-left.png
+    - assets/page-1/images/forward.png
+    - assets/page-1/images/icon-JKQ.png
+    - assets/page-1/images/wifi-CFg.png
+    - assets/page-1/images/icon-BXU.png
+    - assets/page-1/images/cellular-connection-98A.png
+    - assets/page-1/images/trophy.png
+    - assets/page-1/images/statusbar-battery.png
+    - assets/page-1/images/vuesax-linear-arrow-right-wJn.png
+    - assets/page-1/images/vuesax-linear-arrow-right-jpA.png
+    - assets/page-1/images/search-2-line.png
+    - assets/page-1/images/icon-ZyQ.png
+    - assets/page-1/images/vuesax-linear-arrow-right-Qvi.png
+    - assets/page-1/images/icon-fwk.png
+    - assets/page-1/images/forward-ATp.png
+    - assets/page-1/images/time-style.png
+    - assets/page-1/images/vuesax-linear-arrow-right-u7t.png
+    - assets/page-1/images/icon-N7p.png
+    - assets/page-1/images/vuesax-linear-arrow-right-Chk.png
+    - assets/page-1/images/vuesax-linear-eye-slash.png
+    - assets/page-1/images/wifi-JEr.png
+    - assets/page-1/images/icon-bjC.png
+    - assets/page-1/images/icon-6bQ.png
+    - assets/page-1/images/vuesax-linear-arrow-left-QMC.png
+    - assets/page-1/images/icon-zLv.png
+    - assets/page-1/images/wifi-yyx.png
+    - assets/page-1/images/more-2-line.png
+    - assets/page-1/images/icon-3iW.png
+    - assets/page-1/images/vuesax-bold-gallery-qhx.png
+    - assets/page-1/images/statusbar-battery-9Kt.png
+    - assets/page-1/images/wifi-kVU.png
+    - assets/page-1/images/icon-b1G.png
+    - assets/page-1/images/vidicon-line.png
+    - assets/page-1/images/icon-vhk.png
+    - assets/page-1/images/more-2-line-n9c.png
+    - assets/page-1/images/icon-mobile-signal-vyt.png
+    - assets/page-1/images/checkbox.png
+    - assets/page-1/images/icon-LGE.png
+    - assets/page-1/images/wifi-xS2.png
+    - assets/page-1/images/battery.png
+    - assets/page-1/images/time-style-gN2.png
+    - assets/page-1/images/cellular-connection-tLe.png
+    - assets/page-1/images/time-style-Sc6.png
+    - assets/page-1/images/vuesax-linear-arrow-right-C9L.png
+    - assets/page-1/images/icon-mobile-signal-No8.png
+    - assets/page-1/images/vuesax-linear-arrow-right-7ki.png
+    - assets/page-1/images/illustration.png
+    - assets/page-1/images/battery-1zW.png
+    - assets/page-1/images/icon-ena.png
+    - assets/page-1/images/icon-mobile-signal-DAe.png
+    - assets/page-1/images/cellular-connection-nFg.png
+    - assets/page-1/images/vuesax-bold-calendar.png
+    - assets/page-1/images/statusbar-battery-ghk.png
+    - assets/page-1/images/wifi-ffU.png
+    - assets/page-1/images/arrow-left-s-line.png
+    - assets/page-1/images/vuesax-linear-arrow-left-TDG.png
+    - assets/page-1/images/male-user.png
+    - assets/page-1/images/vuesax-bold-gallery-1jk.png
+    - assets/page-1/images/icon-ZmG.png
+    - assets/page-1/images/vuesax-linear-arrow-right-vLv.png
+    - assets/page-1/images/statusbar-battery-5Ui.png
+    - assets/page-1/images/statusbar-battery-gzA.png
+    - assets/page-1/images/battery-MgA.png
+    - assets/page-1/images/wifi-bGz.png
+    - assets/page-1/images/trophy-bLr.png
+    - assets/page-1/images/icon-vGe.png
+    - assets/page-1/images/icon-FGJ.png
+    - assets/page-1/images/icon-mobile-signal-oqY.png
+    - assets/page-1/images/icon-edC.png
+    - assets/page-1/images/icon-2Nr.png
+    - assets/page-1/images/vuesax-linear-edit.png
+    - assets/page-1/images/image-1.png
+    - assets/page-1/images/icon-DBk.png
+    - assets/page-1/images/vuesax-linear-eye-slash-sfc.png
+    - assets/page-1/images/icon-kwg.png
+    - assets/page-1/images/group.png
+    - assets/page-1/images/statusbar-battery-Utv.png
+    - assets/page-1/images/group-QCE.png
+    - assets/page-1/images/auto-group-f3dg.png
+    - assets/page-1/images/forward-oot.png
+    - assets/page-1/images/image-3.png
+    - assets/page-1/images/icon-VdG.png
+    - assets/page-1/images/icon-gyt.png
+    - assets/page-1/images/icon-oH8.png
+    - assets/page-1/images/more-2-line-1CA.png
+    - assets/page-1/images/vuesax-linear-arrow-right-uNe.png
+    - assets/page-1/images/battery-vut.png
+    - assets/page-1/images/wifi-NBQ.png
+    - assets/page-1/images/image-1-3ot.png
+    - assets/page-1/images/more-2-line-bKC.png
+    - assets/page-1/images/forward-NDL.png
+    - assets/page-1/images/wifi-uNv.png
+    - assets/page-1/images/cellular-connection-grr.png
+    - assets/page-1/images/wifi-3L2.png
+    - assets/page-1/images/battery-aMt.png
+    - assets/page-1/images/group-za2.png
+    - assets/page-1/images/icon-1t2.png
+    - assets/page-1/images/icon-paa.png
+    - assets/page-1/images/battery-yiN.png
+    - assets/page-1/images/icon-7Jn.png
+    - assets/page-1/images/icon-GSa.png
+    - assets/page-1/images/icon-RqG.png
+    - assets/page-1/images/icon-v3p.png
+    - assets/page-1/images/icon-Kh8.png
+    - assets/page-1/images/image-3-Gnz.png
+    - assets/page-1/images/icon-hYr.png
+    - assets/page-1/images/icon-8Wz.png
+    - assets/page-1/images/icon-HPt.png
+    - assets/page-1/images/group-SGn.png
+    - assets/page-1/images/icon-uo4.png
+    - assets/page-1/images/icon-fXL.png
+    - assets/page-1/images/icon-dyx.png
+    - assets/page-1/images/icon-p9L.png
+    - assets/page-1/images/icon-z3p.png
+    - assets/page-1/images/brake-warning.png
+    - assets/page-1/images/image-2.png
+    - assets/page-1/images/vuesax-linear-arrow-down.png
+    - assets/page-1/images/vuesax-linear-eye-slash-TCJ.png
+    - assets/page-1/images/icon-pHk.png
+    - assets/page-1/images/icon-Btz.png
+    - assets/page-1/images/icon-kx6.png
+    - assets/page-1/images/icon-LG6.png
+    - assets/page-1/images/battery-bDx.png
+    - assets/page-1/images/icon-h7C.png
+    - assets/page-1/images/icon-Q5t.png
+    - assets/page-1/images/wifi-brW.png
+    - assets/page-1/images/brake-warning-Mqg.png
+    - assets/page-1/images/cellular-connection-9HY.png
+    - assets/page-1/images/icon-7b4.png
+    - assets/page-1/images/icon-cRL.png
+    - assets/page-1/images/icon-YNr.png
+    - assets/page-1/images/icon-nxe.png
+    - assets/page-1/images/auto-group-i6sr.png
+    - assets/page-1/images/icon-Nxn.png
+    - assets/page-1/images/icon-cNz.png
+    - assets/page-1/images/male-user-9AW.png
+    - assets/page-1/images/cellular-connection-4aJ.png
+    - assets/page-1/images/wifi-kwG.png
+    - assets/page-1/images/auto-group-dcvz.png
+    - assets/page-1/images/wifi-jre.png
+    - assets/page-1/images/icon-GjQ.png
+    - assets/page-1/images/icon-p3x.png
+    - assets/page-1/images/icon-NJi.png
+    - assets/page-1/images/cellular-connection-Die.png
+    - assets/page-1/images/icon-RLr.png
+    - assets/page-1/images/icon-ADC.png
+    - assets/page-1/images/auto-group-ixle.png
+    - assets/page-1/images/icon-YnS.png
+    - assets/page-1/images/cellular-connection-w8r.png
+    - assets/page-1/images/icon-XmG.png
+    - assets/page-1/images/icon-CV4.png
+    - assets/page-1/images/image-2-E8W.png
+    - assets/page-1/images/icon-G78.png
+    - assets/page-1/images/icon-DJ6.png
+    - assets/page-1/images/icon-vLv.png
+    - assets/page-1/images/icon-BxJ.png
+    - assets/page-1/images/icon-Nq4.png
+    - assets/page-1/images/icon-U2r.png
+    - assets/page-1/images/icon-FdG.png
+    - assets/page-1/images/battery-qbU.png
+    - assets/page-1/images/icon-z3Y.png
+    - assets/page-1/images/icon-Lt6.png
+    - assets/page-1/images/icon-ugJ.png
+    - assets/page-1/images/icon-Npn.png
+    - assets/page-1/images/wifi-YUN.png
+    - assets/page-1/images/icon-174.png
+    - assets/page-1/images/icon-mrv.png
+    - assets/page-1/images/icon-HqG.png
+    - assets/page-1/images/wifi-WFx.png
+    - assets/page-1/images/icon-xGN.png
+    - assets/page-1/images/group-cJJ.png
+    - assets/page-1/images/icon-ppv.png
+    - assets/page-1/images/vuesax-linear-login.png
+    - assets/page-1/images/icon-Djt.png
+    - assets/page-1/images/icon-mobile-signal-sE6.png
+    - assets/page-1/images/statusbar-battery-teJ.png
+    - assets/page-1/images/icon-Kt2.png
+    - assets/page-1/images/icon-Bga.png
+    - assets/page-1/images/icon-Ape.png
+    - assets/page-1/images/icon-ELe.png
+    - assets/page-1/images/icon-jka.png
+    - assets/page-1/images/icon-TAn.png
+    - assets/page-1/images/icon-2Dt.png
+    - assets/page-1/images/icon-t4N.png
+    - assets/page-1/images/image-picture-photo-square-a-1.png
+    - assets/page-1/images/icon-8Wi.png
+    - assets/page-1/images/icon-V2N.png
+    - assets/page-1/images/icon-Qte.png
+    - assets/page-1/images/icon-mobile-signal-tSS.png
+    - assets/page-1/images/icon-3KL.png
+    - assets/page-1/images/icon-Xre.png
+    - assets/page-1/images/icon-tXQ.png
+    - assets/page-1/images/search-tab.png
+    - assets/page-1/images/group-SXp.png
+    - assets/page-1/images/icon-SJr.png
+    - assets/page-1/images/battery-ntW.png
+    - assets/page-1/images/check-1.png
+    - assets/page-1/images/icon-fdY.png
+    - assets/page-1/images/cellular-connection-ByQ.png
+    - assets/page-1/images/auto-group-eekw.png
+    - assets/page-1/images/auto-group-avra.png
+    - assets/page-1/images/icon-16x-location.png
+    - assets/page-1/images/icon-tsg.png
+    - assets/page-1/images/vector.png
+    - assets/page-1/images/auto-group-ippa.png
+    - assets/page-1/images/icon-Eia.png
+    - assets/page-1/images/icon-Cop.png
+    - assets/page-1/images/icon-fhQ.png
+    - assets/page-1/images/icon-6Mt.png
+    - assets/page-1/images/wifi-on6.png
+    - assets/page-1/images/battery-wtJ.png
+    - assets/page-1/images/group-726.png
+    - assets/page-1/images/cellular-connection-S4N.png
+    - assets/page-1/images/battery-iGn.png
+    - assets/page-1/images/icon-YGN.png
+    - assets/page-1/images/path.png
+    - assets/page-1/images/captura-de-pantalla-2022-12-22-a-las-1312-1-bg.png
+    - assets/page-1/images/icon-MvN.png
+    - assets/page-1/images/icon-VZg.png
+    - assets/page-1/images/path-CeS.png
+    - assets/page-1/images/icon-16x-time.png
+    - assets/page-1/images/icon-QQn.png
+    - assets/page-1/images/fire.png
+    - assets/page-1/images/auto-group-r48n.png
+    - assets/page-1/images/search-tab-Gsp.png
+    - assets/page-1/images/cellular-connection-qYi.png
+    - assets/page-1/images/path-2Kg.png
+    - assets/page-1/images/auto-group-pkty.png
+    - assets/page-1/images/icon-s9g.png
+    - assets/page-1/images/mask-group.png
+    - assets/page-1/images/icon-qsc.png
+    - assets/page-1/images/wifi-MhG.png
+    - assets/page-1/images/group-hsU.png
+    - assets/page-1/images/icon-Wd4.png
+    - assets/page-1/images/wifi-dFt.png
+    - assets/page-1/images/street-view.png
+    - assets/page-1/images/battery-gmt.png
+    - assets/page-1/images/fire-t9C.png
+    - assets/page-1/images/group-49U.png
+    - assets/page-1/images/male-user-fqp.png
+    - assets/page-1/images/mask-group-isY.png
+    - assets/page-1/images/forward-zaA.png
+    - assets/page-1/images/navigation.png
+    - assets/page-1/images/forward-m34.png
+    - assets/page-1/images/male-user-QTg.png
+    - assets/page-1/images/group-kmk.png
+    - assets/page-1/images/plus.png
+    - assets/page-1/images/brake-warning-FuQ.png
+    - assets/page-1/images/trophy-NRC.png
+    - assets/page-1/images/search-tab-zn2.png
+    - assets/page-1/images/forward-bg.png
+    - assets/page-1/images/captura-de-pantalla-2022-12-22-a-las-1312-1-bg-eHc.png
+    - assets/page-1/images/forward-Rx2.png
+    - assets/page-1/images/brake-warning-8fg.png
+    - assets/page-1/images/group-RGi.png
+    - assets/page-1/images/group-SB8.png
+    - assets/page-1/images/trophy-nkn.png
+    - assets/page-1/images/forward-udY.png
+    - assets/page-1/images/forward-jTU.png
+    - assets/page-1/images/forward-VjU.png
+    - assets/page-1/images/battery-hVG.png
+    - assets/page-1/images/icon-uDp.png
+    - assets/page-1/images/cellular-connection-tjG.png
+    - assets/page-1/images/icon-2Gn.png
+    - assets/page-1/images/icon-Zjt.png
+    - assets/page-1/images/wifi-GXp.png
+    - assets/page-1/images/icon-7xz.png
+    - assets/page-1/images/wifi-zC6.png
+    - assets/page-1/images/group-LSr.png
+    - assets/page-1/images/icon-tTY.png
+    - assets/page-1/images/group-SV4.png
+    - assets/page-1/images/battery-o3L.png
+    - assets/page-1/images/cellular-connection-Qmk.png
+    - assets/page-1/images/icon-see.png
+    - assets/page-1/images/brake-warning-Nbx.png
+    - assets/page-1/images/wifi-9M8.png
+    - assets/page-1/images/icon-w9p.png
+    - assets/page-1/images/icon-YE2.png
+    - assets/page-1/images/text-field.png
+    - assets/page-1/images/icon-jiN.png
+    - assets/page-1/images/time-style-CxW.png
+    - assets/page-1/images/icon-ee2.png
+    - assets/page-1/images/wifi-zxn.png
+    - assets/page-1/images/wifi-PTc.png
+    - assets/page-1/images/icon-BwC.png
+    - assets/page-1/images/cellular-connection-7K4.png
+    - assets/page-1/images/trophy-dPk.png
+    - assets/page-1/images/forward-BG2.png
+    - assets/page-1/images/icon-zpe.png
+    - assets/page-1/images/icon-5gr.png
+    - assets/page-1/images/statusbar-battery-LFx.png
+    - assets/page-1/images/icon-mobile-signal-V6n.png
+    - assets/page-1/images/icon-gMc.png
+    - assets/page-1/images/battery-5A6.png
+    - assets/page-1/images/icon-XJE.png
+    - assets/page-1/images/search-2-line-q98.png
+    - assets/page-1/images/icon-Tfc.png
+    - assets/page-1/images/battery-MNe.png
+    - assets/page-1/images/arrow.png
+    - assets/page-1/images/male-user-SxE.png
+    - assets/page-1/images/vector-70.png
+    - assets/page-1/images/icon-NiS.png
+    - assets/page-1/images/cellular-connection-h6E.png
+    - assets/page-1/images/icon-WSJ.png
+    - assets/page-1/images/illustration-e9c.png
+    - assets/page-1/images/icon-Rv6.png
+    - assets/page-1/images/icon-MeE.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
